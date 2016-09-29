@@ -26,3 +26,15 @@ h1 {
 	position: fixed;
 	width: 100%;
 }
+.spin {
+	animation: 3s new-image;
+}
+
+@keyframes new-image {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(359deg);
+	}
+}

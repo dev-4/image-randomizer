@@ -1,4 +1,25 @@
-// Image Arrays
+// Main Function
+function displayImg(showText){
+  var num = Math.floor(Math.random() * 29);
+  document.canvas.src = 'img/'+ imgArray[num];
+  if( showText ) {
+  	document.querySelector(".text").innerText = textArray[num];
+	  document.querySelector(".prize").innerText = prizeArray[num];
+ 	}
+}
+// Flash Function
+function flashImg(i) {
+	if( typeof i === "undefined" ) i = 1;
+	setTimeout(function(){
+		if( i > 10 ) {
+			displayImg(true);
+		} else {
+			displayImg();
+			flashImg(i+1); 
+		}
+	},25*i);
+}
+// Image Arrays [0-29]
 var imgArray = [
 	"art.png", "aura.png", "big_clouds.png", "bird.png", "black_circle.png", 
 	"blue_circle.png", "blur.png", "broken_map.png", "clouds.png", "cloudy.png", 
@@ -6,7 +27,7 @@ var imgArray = [
 	"love.png", "map.png", "metro.png", "milky_way.png", "mountains.png", 
 	"mountain_circles.png", "old_paper.png", "planet.png", "preview.png", "round_art.png", 
 	"sky.png", "spooky_skeleton.png", "triangles.png", "world.png"];
-// Text Arrays
+// Text Arrays [0-29]
 var textArray = [
 	"'When I die, I want to go peacefully like my grandfather did–in his sleep. Not yelling and screaming like the passengers in his car.' -Bob Monkhouse", 
 	"'I have six locks on my door all in a row. When I go out, I lock every other one. I figure no matter how long somebody stands there picking the locks, they are always locking three.' -Elayne Boosler",
@@ -37,16 +58,9 @@ var textArray = [
 	"'We’ve all heard that a million monkeys banging on a million typewriters will eventually reproduce the entire works of Shakespeare. Now, thanks to the Internet, we know this is not true.' -Rober Wilensky",
 	"'If evolution really works, how come mothers only have two hands?' -Milton Berle",
 	"'Women who seek to be equal with men lack ambition.' -Marylin Monroe"];
-// Prize Arrays
+// Prize Arrays [0-29]
 var prizeArray = [
 	"10 points", "20 points", "10 points", "50 points", "5 points", "5 points", "100 points", 
 	"5 points", "10 points", "A toaster", "69 points", "5 points", "20 points", "50 points", "10 points", "5 points",
 	"5 points", "5 points", "5 points", "10 points", "5 points", "50 points", "9 points", "5 points", "10 points", "5 points",
 	"10 points", "5 points", "5 points"];
-// Main Function
-function displayImg(){
-  var num = Math.floor(Math.random() * 29);
-  document.canvas.src = 'img/'+ imgArray[num];
-  document.querySelector(".text").innerText = textArray[num];
-  document.querySelector(".prize").innerText = prizeArray[num];
-}
