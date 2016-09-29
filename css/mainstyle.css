@@ -6,17 +6,23 @@ body {
     margin: 0;
 }
 h1 {
-    background-color: lightblue;
+    background-color: rgba(240, 173, 78, 0.75);
+    padding-bottom: 5px;
 }
 .text {
-	padding-top: 20px;
-	font-size: 32px;
+	font-size: 36px;
 }
 .row {
-	padding-top: 20px;
+	padding-top: 15px;
 }
 .prize {
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 64px;
 	color: red;
+}
+#copyright {
+	background-color: rgba(240, 173, 78, 0.75);
+	bottom: 0;
+	position: fixed;
+	width: 100%;
 }
