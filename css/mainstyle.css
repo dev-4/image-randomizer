@@ -1,14 +1,16 @@
+/* Main Area */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 h1 {
-    background-color: rgba(79, 146, 239, 0.6);
-    padding-bottom: 5px;
+  background-color: rgba(79, 146, 239, 0.5);
+  padding-bottom: 5px;
 }
+/* Class */
 .text {
 	font-size: 34px;
 }
@@ -21,15 +23,17 @@ h1 {
 	font-size: 60px;
 	color: red;
 }
+.spin {
+	animation: 3s new-image;
+}
+/* ID */
 #copyright {
 	bottom: 0;
 	position: fixed;
 	width: 100%;
+	background-color: rgba(79, 146, 239, 0.5);
 }
-.spin {
-	animation: 3s new-image;
-}
-
+/* Keyframes 
 @keyframes new-image {
 	0% {
 		transform: rotateZ(0);

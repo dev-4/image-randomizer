@@ -17,7 +17,7 @@ function flashImg(i) {
 			displayImg();
 			flashImg(i+1); 
 		}
-	},25*i);
+	},40*i);
 }
 // Image Arrays [0-29]
 var imgArray = [
