@@ -22,7 +22,7 @@ var textArray = ["'When I die, I want to go peacefully like my grandfather did�
 "'The only mystery in life is why the kamikaze pilots wore helmets. -Al Mcguire'", 
 "'Going to church doesn’t make you a Christian any more than standing in a garage makes you a car.' -Billy Sunday", 
 "'A bargain is something you don’t need at a price you can’t resist.' -Franklin Jones", 
-"'If at first you don’t succeed . . . so much for skydiving.' -Henny Youngman", 
+"'If at first you don’t succeed... so much for skydiving.' -Henny Youngman", 
 "'If you steal from one author, it’s plagiarism; if you steal from many, it’s research.' -Wilson Mizner", 
 "'If you think nobody cares if you’re alive, try missing a couple of car payments.' -Flip Wilson", 
 "'My mother never saw the irony in calling me a son-of-a-bitch.' -Jack Nicholson",
