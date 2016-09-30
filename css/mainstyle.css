@@ -3,42 +3,37 @@
   box-sizing: border-box;
 }
 body {
+	background-image: url(../img/background.png);
   text-align: center;
   margin: 0;
 }
 h1 {
-  background-color: rgba(79, 146, 239, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   padding-bottom: 5px;
+  box-shadow: 0 5px 20px;
 }
 /* Class */
 .text {
 	font-size: 34px;
+	color: white;
 }
 .row {
-	padding-top: 5px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 .prize {
 	padding-top: 10px;
 	font-size: 60px;
 	color: red;
 }
-.spin {
-	animation: 3s new-image;
+.image {
+	box-shadow: 0 5px 20px;
+	color: black;
 }
 /* ID */
 #copyright {
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	background-color: rgba(79, 146, 239, 0.5);
-}
-/* Keyframes 
-@keyframes new-image {
-	0% {
-		transform: rotateZ(0);
-	}
-	100% {
-		transform: rotateZ(359deg);
-	}
+	color: white;
 }
