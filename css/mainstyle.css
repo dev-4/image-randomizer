@@ -7,15 +7,10 @@ body {
   text-align: center;
   margin: 0;
 }
-h1 {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-bottom: 5px;
-  box-shadow: 0 5px 20px;
-}
 /* Class */
 .text {
 	font-size: 34px;
-	color: white;
+	color: #34495e;
 }
 .row {
 	padding-top: 10px;
@@ -24,17 +19,9 @@ h1 {
 .prize {
 	padding-top: 10px;
 	font-size: 60px;
-	color: rgb(240, 173, 78);
+	color: #d35400;
 }
 .image {
 	box-shadow: 0 5px 20px;
 	color: black;
-}
-/* ID */
-#copyright {
-	bottom: 0;
-	position: fixed;
-	width: 100%;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.7);
 }
