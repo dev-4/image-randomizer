@@ -9,7 +9,7 @@ body {
 }
 /* Class */
 .text {
-	font-size: 34px;
+	font-size: 22px;
 	color: #34495e;
 }
 .row {
@@ -18,7 +18,7 @@ body {
 }
 .prize {
 	padding-top: 10px;
-	font-size: 60px;
+	font-size: 50px;
 	color: #d35400;
 }
 .image {
